@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CalCulator | ماشین حساب</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="bg-blue-700 h-screen flex items-center justify-center">
+    <div
+      class="h-min text-sm md:text-xl mx-2 md:mx-auto shadow-2xl container max-w-[800px] bg-white grid grid-cols-4 items-center justify-around gap-5 px-10 pb-10 pt-5 rounded-lg"
+    >
+      <input
+        placeholder="0"
+        id="input"
+        type="text"
+        class="bg-red-500 text-lg text-white input col-span-4 outline-none rounded-lg text-center font-light h-16"
+      />
+      <div
+        class="answerScreen bg-red-500 text-lg text-white input col-span-4 outline-none rounded-lg text-center font-light"
+      >
+        0
+      </div>
+      <button
+        id="seven"
+        class="num_btn bg-blue-500 py-4 rounded-full"
+        value="7"
+      >
+        7
+      </button>
+      <button
+        id="eight"
+        class="num_btn bg-blue-500 py-4 rounded-full"
+        value="8"
+      >
+        8
+      </button>
+      <button id="nine" class="num_btn bg-blue-500 py-4 rounded-full" value="9">
+        9
+      </button>
+      <button
+        id="taghsim"
+        class="bg-red-600 font-bold text-sm md:text-xl text-white py-4 rounded-full"
+        value="/"
+      >
+        /
+      </button>
+      <button id="four" class="num_btn bg-blue-500 py-4 rounded-full" value="4">
+        4
+      </button>
+      <button id="five" class="num_btn bg-blue-500 py-4 rounded-full" value="5">
+        5
+      </button>
+      <button id="six" class="num_btn bg-blue-500 py-4 rounded-full" value="6">
+        6
+      </button>
+      <button
+        id="zarb"
+        class="bg-red-600 font-bold text-sm md:text-xl text-white py-4 rounded-full"
+        value="*"
+      >
+        *
+      </button>
+      <button id="one" class="num_btn bg-blue-500 py-4 rounded-full" value="1">
+        1
+      </button>
+      <button id="two" class="num_btn bg-blue-500 py-4 rounded-full" value="2">
+        2
+      </button>
+      <button
+        id="three"
+        class="num_btn bg-blue-500 py-4 rounded-full"
+        value="3"
+      >
+        3
+      </button>
+      <button
+        id="menha"
+        class="bg-red-600 font-bold text-sm md:text-xl text-white py-4 rounded-full"
+        value="-"
+      >
+        -
+      </button>
+      <button id="zero" class="num_btn bg-blue-500 py-4 rounded-full" value="0">
+        0
+      </button>
+      <button
+        id="sum"
+        class="bg-red-600 font-bold text-sm md:text-xl text-white py-4 rounded-full"
+        value="+"
+      >
+        +
+      </button>
+      <button
+        id="clear"
+        class="bg-red-600 font-bold text-sm md:text-xl text-white py-4 rounded-full"
+        value=""
+      >
+        C
+      </button>
+      <button
+        id="backspace"
+        class="text-[7px] bg-red-600 font-bold md:text-xl text-white py-4 rounded-full"
+        value=""
+      >
+        &#11013
+      </button>
+      <button
+        id="equl"
+        class="bg-red-600 font-bold text-sm md:text-xl text-white py-4 rounded-full col-span-4"
+        value="="
+      >
+        =
+      </button>
+      <h2 class="col-span-4 text-center text-red-700 font-light font-mono">
+        Mohammad Reza Kazemi
+      </h2>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
